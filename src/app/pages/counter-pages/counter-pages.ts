@@ -29,6 +29,6 @@ export class CounterPages {
     setInterval(() => {
       this.counterSignal.update((v) => (v += 1));
       console.log('Tick');
-    }, 2000);
+    }, 60000);
   }
 }
