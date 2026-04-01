@@ -1,17 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { DragonballPage } from './dragonball-page';
+import { DragonballSuperPage } from './dragonball-super-page';
 
 describe('DragonballPage', () => {
-  let component: DragonballPage;
-  let fixture: ComponentFixture<DragonballPage>;
+  let component: DragonballSuperPage;
+  let fixture: ComponentFixture<DragonballSuperPage>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DragonballPage],
+      imports: [DragonballSuperPage],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(DragonballPage);
+    fixture = TestBed.createComponent(DragonballSuperPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

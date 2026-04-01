@@ -15,11 +15,13 @@
   nav a.active {
     color: red;
     text-decoration: underline;
-
   }
 </style>
 <nav>
-  <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Counter</a>
+  <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+    >Counter</a
+  >
   <a [routerLink]="['/hero']" [routerLinkActive]="['active']">Hero</a>
   <a [routerLink]="['/dragonball']" [routerLinkActive]="['active']">Dragon ball</a>
+  <a [routerLink]="['/dragonball-super']" [routerLinkActive]="['active']">Dragon ball Super</a>
 </nav>
